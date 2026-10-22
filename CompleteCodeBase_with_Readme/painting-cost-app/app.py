@@ -107,7 +107,7 @@ with col2:
     default_quantity = min(max(DEFAULT_QUANTITY, q_min), q_max)
 
     quantity = st.number_input(
-        "Quantity/Wall area (sqm)",
+        "Quantity or Wall area (sqm)",
         min_value=max(1.0, q_min),
         max_value=q_max,
         value=default_quantity,
