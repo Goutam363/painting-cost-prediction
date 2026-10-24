@@ -5,7 +5,8 @@ import pandas as pd
 import streamlit as st
 
 BASE_DIR = Path(__file__).parent
-MODEL_PATH = BASE_DIR / "linear_regression_model.joblib"
+# MODEL_PATH = BASE_DIR / "linear_regression_model.joblib"
+MODEL_PATH = BASE_DIR / "svm_model.joblib"
 DATA_PATH = BASE_DIR / "painting_dataset_cleaned.csv"
 
 st.set_page_config(
