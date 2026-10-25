@@ -61,51 +61,56 @@ The workflow includes:
 The repository contains the source datasets, preprocessing and modeling notebooks, generated CSV files, trained models, figures, and Streamlit application.
 
 ```text
-CompleteCodeBase_with_Readme/
-│
-├── Dataset/
-│
-├── figures/
-│
-├── painting-cost-app/
-│   ├── app.py
-│   ├── svm_model.joblib
-│   ├── painting_dataset_cleaned.csv
-│   └── requirements.txt
-│
-├── .gitignore
-│
-├── MainCode.ipynb
-├── Preprocess.ipynb
-│
-├── painting_dataset.csv
-├── painting_dataset_cleaned.csv
-│
-├── X_train.csv
-├── X_test.csv
-├── y_train.csv
-├── y_test.csv
-├── groups_train.csv
-├── groups_test.csv
-│
-├── linear_regression_model.joblib
-├── linear_regression_metrics.csv
-├── linear_regression_test_predictions.csv
-├── linear_regression_energy_summary.csv
-│
-├── decision_tree_model.joblib
-├── decision_tree_metrics.csv
-├── decision_tree_test_predictions.csv
-├── decision_tree_energy_summary.csv
-│
-├── svm_model.joblib
-├── svm_metrics.csv
-├── svm_test_predictions.csv
-├── svm_energy_summary.csv
-│
-├── energy_measurements.csv
-│
-└── README.md
+Final_ML_Project
+    │
+    ├──CompleteCodeBase_with_Readme/
+    |    │
+    |    ├── Dataset/
+    |    │
+    |    ├── figures/
+    |    │
+    |    ├── painting-cost-app/
+    |    │   ├── app.py
+    |    │   ├── svm_model.joblib
+    |    │   ├── painting_dataset_cleaned.csv
+    |    │   └── requirements.txt
+    |    │
+    |    ├── .gitignore
+    |    │
+    |    ├── MainCode.ipynb
+    |    ├── Preprocess.ipynb
+    |    │
+    |    ├── painting_dataset.csv
+    |    ├── painting_dataset_cleaned.csv
+    |    │
+    |    ├── X_train.csv
+    |    ├── X_test.csv
+    |    ├── y_train.csv
+    |    ├── y_test.csv
+    |    ├── groups_train.csv
+    |    ├── groups_test.csv
+    |    │
+    |    ├── linear_regression_model.joblib
+    |    ├── linear_regression_metrics.csv
+    |    ├── linear_regression_test_predictions.csv
+    |    ├── linear_regression_energy_summary.csv
+    |    │
+    |    ├── decision_tree_model.joblib
+    |    ├── decision_tree_metrics.csv
+    |    ├── decision_tree_test_predictions.csv
+    |    ├── decision_tree_energy_summary.csv
+    |    │
+    |    ├── svm_model.joblib
+    |    ├── svm_metrics.csv
+    |    ├── svm_test_predictions.csv
+    |    ├── svm_energy_summary.csv
+    |    │
+    |    ├── energy_measurements.csv
+    |    │
+    |    └── README.md
+    ├── ML_Project_9_Group_3_Presentation.ppt
+    |
+    └── ML_Project_9_Group_3_Report.pdf
 ```
 
 *Note: The structure above lists the principal files. The `Dataset/` and `figures/` directories contain their respective source data and generated figures. The app directory should contain the SVM model artifact referenced by `app.py`.*
