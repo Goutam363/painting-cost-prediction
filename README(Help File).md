@@ -63,7 +63,7 @@ The repository contains the source datasets, preprocessing and modeling notebook
 ```text
 Final_ML_Project
     │
-    ├──CompleteCodeBase_with_Readme/
+    ├──CompleteCodeBaseWithDataset/
     |    │
     |    ├── Dataset/
     |    │
